@@ -21,10 +21,10 @@ POST http://localhost:3000/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "email": "1",
-    "username": "1",
-    "name": "1",
-    "ipaddress": "1"
+    "email": "100124@today.com",
+    "username": "today",
+    "name": "Eloy",
+    "ipaddress": "1.1.1.1"
 }
 
 ### DELETE
@@ -37,3 +37,29 @@ DELETE http://localhost:3000/users/66f88553c1e38cf865e3072a HTTP/1.1
 GET https://wdd340-project1.onrender.com/users
 ###Get user by id
 GET https://wdd340-project1.onrender.com/users/66f33fb4289986b295d3be8f
+
+### PUT
+PUT http://wdd340-project1.onrender.com/users/66fcbdb766ff40310b1b250c HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "w2hwtest@test.com",
+    "username": "TEST",
+    "name": "TEST1",
+    "ipaddress": "123.123.123.123"
+}
+
+### POST
+POST http://wdd340-project1.onrender.com/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "w2hwtest@test.com",
+    "username": "TEST",
+    "name": "TEST1",
+    "ipaddress": "12.12.12.12"
+}
+
+### DELETE
+DELETE http://wdd340-project1.onrender.com/users/66fcbc2f66ff40310b1b250b HTTP/1.1
+
