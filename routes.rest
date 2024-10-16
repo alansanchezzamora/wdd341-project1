@@ -39,7 +39,7 @@ GET https://wdd340-project1.onrender.com/users
 GET https://wdd340-project1.onrender.com/users/66f33fb4289986b295d3be8f
 
 ### PUT
-PUT http://wdd340-project1.onrender.com/users/66fcbdb766ff40310b1b250c HTTP/1.1
+PUT http://wdd340-project1.onrender.com/users/66fcc54d374c2eccc97cd0e1 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -57,9 +57,10 @@ Content-Type: application/json
     "email": "w2hwtest@test.com",
     "username": "TEST",
     "name": "TEST1",
-    "ipaddress": "12.12.12.12"
+    "ipaddress": "123.123.123.123"
+
 }
 
 ### DELETE
-DELETE http://wdd340-project1.onrender.com/users/66fcbc2f66ff40310b1b250b HTTP/1.1
+DELETE http://wdd340-project1.onrender.com/users/66fcc54d374c2eccc97cd0e1 HTTP/1.1
 
